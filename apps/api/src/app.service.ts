@@ -1,5 +1,6 @@
+import { add } from '@car-management/sample-lib';
 import { Injectable } from '@nestjs/common';
-import { add } from 'dist/libs/sample-lib';
+
 
 @Injectable()
 export class AppService {
