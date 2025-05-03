@@ -4,8 +4,6 @@ export default function Home() {
   return <div>hello world {add(343, 4)}</div>;
 }
 
-
-
 /* 
 
   const addition = add(5000, 5);
