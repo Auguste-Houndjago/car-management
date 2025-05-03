@@ -4,3 +4,15 @@ libs/sample-lib
 je suis dans apps/api/ comment ajouter sample-lib ?
 
 pnpm add @car-management/sample-lib
+
+
+
+##db
+
+
+#prisma
+
+install : 
+pnpm add prisma -D
+
+postgresql://car-management_owner:npg_M6zdDmjVQkw8@ep-patient-morning-a4qyvfr6-pooler.us-east-1.aws.neon.tech/car-management?sslmode=require

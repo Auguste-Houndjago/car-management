@@ -1,14 +1,8 @@
 import { add } from '@car-management/sample-lib';
 
-const a = 0
-
-a = ""
 export default function Home() {
   return <div>hello world {add(343, 4)}</div>;
 }
-
-
-
 
 
 
