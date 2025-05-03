@@ -11,7 +11,7 @@ import { join } from 'node:path';
       driver: ApolloDriver,
       introspection: true,
       fieldResolverEnhancers: ['guards'],
-      autoSchemaFile: join(process.cwd() , 'src/schema.gql' )
+      autoSchemaFile: join(process.cwd(), 'src/schema.gql'),
     }),
   ],
 
