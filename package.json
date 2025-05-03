@@ -1,0 +1,23 @@
+{
+  "name": "car-management",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "scripts": {
+    "format": "prettier  \"{apps,libs}/**/*.{ts,tsx,js,json}\" --ignore-path .gitignore",
+    "format:check": "yarn format --check",
+    "format:write": "yarn format --write",
+    "tsc": "pnpm --parallel -r run tsc",
+    "lint": "pnpm --parallel -r run lint",
+    "build": "pnpm --parallel -r run build",
+    "validate":"pnpm format:write && pnpm tsc && pnpm lint && pnpm build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-define-config": "^2.1.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  }
+}

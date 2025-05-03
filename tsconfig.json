@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "CommonJS",
+      "strict": true,
+      "baseUrl": ".", 
+      "paths": {
+        "@car-management/sample-lib": ["libs/sample-lib/dist/index.js"]
+      },
+
+    },
+    "exclude": ["node_modules"]
+  }
+  

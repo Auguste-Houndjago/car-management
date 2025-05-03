@@ -1,0 +1,6 @@
+apps/api/
+libs/sample-lib    
+
+je suis dans apps/api/ comment ajouter sample-lib ?
+
+pnpm add @car-management/sample-lib

@@ -1,0 +1,5 @@
+node_modules/
+nbuild/
+ndist/
+.next/
+.env
